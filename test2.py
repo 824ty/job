@@ -6,7 +6,7 @@ import random
 import string
 
 file_number = 1
-while file_number <= 3:
+while file_number <= 100:
     with open("No." + str(file_number) + "text.tsv","w+") as new_file:#test.tsvというファイルを新規作成。変数名「ｔ」
         s = csv.writer (new_file, delimiter="\t")
         fieldnames = ["log_id", "date", "latitude", "longitude"]
