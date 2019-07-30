@@ -16,9 +16,13 @@ while file_number <= 100:
         
         for a in range(1, 10000+1):
             timesone = random.uniform(datetime.datetime(2000, 1, 1), datetime.datetime(2019, 1, 1))
-            timestwo = str(timesone.year) + "-" + str(timesone.month) + "-" +\
-                       str(timesone.day) + "T" + str(timesone.hour) + ":" +\
-                       str(timesone.minute) + ":" + str(timesone.second) + "Z"
+            
+            months, days, hours, minutes, seconds = timesone.month, timesone.day, timesone.hour, timesone.minute, timesone.second 
+             
+            
+            timestwo = str(timesone.year) + "-" + '{0:02d}'.format(months) + "-" +\
+                       '{0:02d}'.format(days) + "T" + '{0:02d}'.format(hours) + ":" +\
+                       '{0:02d}'.format(minutes) + ":" + '{0:02d}'.format(seconds) + "Z"
             
             idone =string.digits + string.ascii_uppercase
             def randomname(n):
