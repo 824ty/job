@@ -1,4 +1,4 @@
-# job
+# job/TSV_generates100.pyの仕様書
 
 ## [目的]<h2>
 *「TSV＿generate100.py」を使用する人は以下のケースを想定している。*<br>
