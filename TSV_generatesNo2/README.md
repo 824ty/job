@@ -43,6 +43,9 @@
     git init  
     git clone コピーしたURL   
 
+・下図のような表記がされれば正常に入力したコマンドが作動している。  
+<img src = "https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/gitclone.png" width = 400px>  
+
 ・実際に下図のようにjobファイルがコピーされ、内部にPythonプログラムがあればダウンロード完了となる。  
 <img src = "https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/downloadfile.png" width = 400px>  
 
