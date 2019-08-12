@@ -27,9 +27,11 @@
 ##  ダウンロード
 このPythonプログラムのダウンロード方法は以下の通り。  
 ・URL(https://github.com/824ty/job) をクリックでアクセスし、下図の手順でURLを取得する。  
-
-・「Windows」キー　 + 「x」キーを同時に押すと下図のメニューが表示される。  
+<img src = "https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/clone.png" width = 400px>  
+・「Windows」キー　 + 「x」キーを同時に押すと下図のメニューが表示される。 
   その中の「コマンドプロンプト」をクリックし、起動する。  
+<img src = "https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/cmdimage.png" width = 200px>  
+  
 ・「cd Desktop」と入力し続けて保存したいファイル場所まで移動する。以下は例である。  
 
     例　デスクトップからnewfile内に移動する。
@@ -41,7 +43,8 @@
     git init  
     git clone コピーしたURL   
 
-・実際に下図のようにファイルがコピーされていればダウンロード完了となる。  
+・実際に下図のようにjobファイルがコピーされ、内部にPythonプログラムがあればダウンロード完了となる。  
+<img src = "https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/downloadfile.png" width = 400px>  
 
 
 ##  使い方
@@ -50,7 +53,7 @@
     Python TSV_generates100.py  
 
 ・下図のように保存したファイル内に「NO.○○text.tsv」が100個生成されていれば正常に動作している。  
-![TSVfile](https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/tsvfile.png)
+<img src = "https://github.com/824ty/job/blob/master/TSV_generatesNo2/image/tsvfile.png" width = 400px>  
 
 ##  制約条件
 このPythonプログラムの制約条件は以下の通り。  
